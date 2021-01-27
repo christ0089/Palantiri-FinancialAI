@@ -1,6 +1,117 @@
 version: "2.0"
 
 nlu:
+- intent: LostCard
+  examples: |
+    - Perdi mi tarjeta
+    - no encuentro mi tarjeta
+    - fui al bar y no encuentro mi tarjeta
+    - fui de viaje no recuerdo donde deje mi tarjeta
+    - no encuentro el plastico
+    - que hago no tengo mi [tarjeta de credito]{type: "credit-card"}
+    - deten la tarjeta [9992]{type: "card"}
+    - cierra mi tarjeta [9992]{type: "card"}
+    - desactivia mi tarjeta profavor y gracias
+    - no se donde quedo mi tarjeta
+    - Hola, necesito asistencia se me callo mi tarjeta 
+    - Creo que perdi mi tarjeta en el camion
+    - Ayudenme a encontrar mi tarjeta
+    - Ayudame perdi mi tarjeta en alguna parte
+    - Estoy muy nervioso perdi mi [tarjeta citi]{type: "credit-card"}
+    - Quiero reponer mi tarjeta [tarjeta de debit]{type: "debit-card"}
+    - Mi tarjeta esta dañada 
+    - Ayudame con mi tarjeta dañada [citibanamex]{type: "credit-card"}
+    - Hola, perdi mi tarjeta
+    - Ayuda, ayuda, alguien tomo mi [tarjeta de credito]{type: "credit-card"} 
+    - Hey mi [tarjeta de credito]{type: "credit-card"} fue robada
+    - Crees que me puedas ayudar? perdi mi tarjeta [tarjeta platinum]{type: "credit-card"}
+    - Hola, quiero congglear mi [tarjeta de citi]{type: "credit-card"}
+    - Estoy hablando para reportar mi [tarjeta de credito]{type: "credit-card"} como extraviada.
+    - Quiero establecer mi [tarjeta de debito]{type: "debit-card"} como perdida.
+    - Estoy seguro que perdi mi tarjeta.
+    - Segurismo que perdi mi [tarjeta de ahorros]{type: "debit-card"} en este viaje.
+    - Estoy seguro que la tarjeta se me callo en el camino al trabajo.
+    - Creo que mi [tarjeta dorada]{type: "credit-card"} esta en algun lado del aeropuerto
+    - Creo que mi [tarjeta de credito]{type: "credit-card"} se callo en el camion.
+    - Creo que mi [tarjeta de debito]{type: "debit-card"} esta en algun lado de la casa pero no la encuentro
+    - Rompi mi tarjete por accidente.
+    - No puedo acceder a mi cuenta porque alguien tomo mi tarjeta porfavor cierrala.
+    - No puedo localizar mi tarjeta que termina con [9992]{type: "card"}
+    - No puedo rastrear mi tarjeta con terminacion [9992]{type: "card"}
+    - Ya busque en toda mi casa mi tarjeta. Necesito ayuda tengo miedo
+    - No puedo encontrar mi tarjeta que hago
+    - Ahorita no logro localizar mi tarjeta 
+    - Que necesito hacer no localizo mi tarjeta en ningun lado
+    - Por mi vida no encuentro mi tarjeta
+    - Desde ayer no logro encontrar mi [tarjeta dorada]{type: "credit-card"}
+    - En estos momentos no encuentro mi [tarjeta de credito]{type: "credit-card"}
+    - No se que hacer y no logro localizar mi [tarjeta de ahorros]{type: "debit-card"}
+    - Hasta que encuentre mi tarjeta puedes congelar la cuente de mi [tarjeta de credito]{type: "credit-card"}
+    - No puedo rastrear mi tarjeta que hago?
+    - Si perdi mi tarjeta [tarjeta de cheques]{type: "debit-card"}
+    - Me refiero a mi [tarjeta de credito]{type: "credit-card"} no la de debito
+    - Deje mi tarjeta en la playa. 
+    - No tengo tarjeta porque la perdí
+    - Me robaron la cartera.
+    - Mi bolsa se la llevaron
+    - No se si me robaron mi tarjeta o la extravie pero la quiero reportar
+    - Ni una idea que paso con mi [tarjeta de credito]{type: "credit-card"}
+    - Quiero cerrar mi cuentas de banco porque no localizo mis cartera.
+    - Desabilita mi [tarjeta recompensas]{type: "credit-card"}
+    - No se donde quedo la [tarjeta de debito]{type: "debit-card"}
+    - No quiero volver a usar la tarjeta
+    - Mi tarjeta se la llevo un pajaro
+    - Como puedo protegerme si no logro encontrar mi  [tarjeta de debito]{type: "debit-card"}
+    - Pordias por un moment, no permitir transacciones en mi tarjeta
+    - Me puedes decir que hacer si extravie mi tarjeta? Es la que termina con  [1232]{type: "debit-card"}
+    - La tarjeta con [9992]{type: "debit-card"} tiene que ser detenida
+    - Cierra la [tarjeta platino]{type: "credit-card"} de mi esposa
+    - No posea mas mi tarjeta
+    - No encuentra en mi posesion no se encuentra la [tarjeta platino]{type: "credit-card"}
+    - No se quien se llevo mi tarjeta o la perdi pero la quiero reportar.
+    - No que sucedio con mi tarjeta que ahora ya no la tengo pero quiero detener un cargo.
+    - No quiero que esta tarjeta se puede utilizar otra vez.
+    - En esto momentos no se el paradero de mi [tarjeta de debito]{type: "debit-card"}
+    - Destrui mi tarjeta por accidente.
+    - Corte la tarjeta equivocada.
+    - Queme la tarjeta con un cigarro.
+    - Le cayo un cigarro a mi tarjeta. 
+    - No retornaron mi [tarjeta de credito]{type: "credit-card"} en el trabajo la quiero reportar.
+    - Se me cayo mi cartera en el camino al trabajo. Me podrias ayudar?
+    - Deje mi cartera en el super y perdi mi [tarjeta de puntos]{type: "credit-card"}
+    - Quisiera reponer las tarjeta que perdi en mi viajer
+    - Alguien tomo la tarjeta que termina con [9992]{type: "card"}
+    - Me caí de las escalera y no me acuerdo donde termino mi tarjeta visa.
+    - Se me olvido recoger la [tarjeta de puntos]{type: "debit-card"}
+    - Tenia un hoyo en mis pantalos y mi tarjeta se perdio.
+    - Sin querer recorte la tarjeta incorrecta.
+    - Necesito cortar la tarjeta que termina con [9922]{type: "card"}
+    - Tengo una [tarjeta de debito]{type: "debit-card"} y la perdi
+    - Tengo un hollo en mi chamarra y creo que mi cartera y otras cosas se calleron.
+    - Tengo una emergencia porque perdi mi [tarjeta platino]{type: "credit-card"}, ayuda
+    - He dejado mi tarjeta en el oxxo. Necesito cerrar mi cuenta de banco.
+    - Perdi la [tarjeta oro]{type: "credito-card"}
+    - No encuetro ninguna de mis tarjetas
+    - Perdi mi tarjeta [8882]{type: "card"}
+    - No se que paso poer mi tarjeta no esta ocupo de su ayuda
+    - Desaparecio mi tarjeta y no me acuerdo donde paso.
+    - Ni una idea donde termino mi tarjeta 
+    - No quiero que nadie use mi tarjeta mientas la busco
+    - Hace poco perdi mi tarjeta porfavor la quiero reponer. 
+    - Busque por todos lados y no sale mi [tarjeta de debito]{type: "debit-card"}
+    - No salio mi tarjeta y por ende la quiero cerrar
+    - No esta mi tarjeta en mi bolsa por eso la quiero cerrar.
+    - He perdido la tarjeta de mi papa
+    - Desde el lunes no encutro la tarjeta 
+    - Quiero pedir ayuda para localizar mi tarjeta
+    - Acabo de perder mi tarjeta quiero ayuda
+    - Me podrias ayudar a cancelar la tarjeta que acabo de perder
+- intent: FradulentCharge  
+  examples: |
+    - Tengo un cargo no reconocido en mi  [tarjeta de debito]{type: "debit-card"}
+    - Hay un cargo sospechoso en mi cuenta de banco
+    - No reconozco un cargo en mi  [tarjeta de credito]{type: "credit-card"}
+    - 
 - intent: greet
   examples: |
     - hey
