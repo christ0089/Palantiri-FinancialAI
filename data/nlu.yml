@@ -106,6 +106,42 @@ nlu:
     - Quiero pedir ayuda para localizar mi tarjeta
     - Acabo de perder mi tarjeta quiero ayuda
     - Me podrias ayudar a cancelar la tarjeta que acabo de perder
+- intent: ReplacementCard
+  examples: | 
+    - Quiero remplazar mi tarjeta por que ya experio mi tarjeta
+    - mi tarjeta caduco la quiero cambiar
+    - como puedo remplazar mi tarjeta ya expiro 
+    - mi [tarjeta de debito]{type: "debit-card"} acaba de expirar
+    - como puedo remplazar una tarjeta expirada
+    - tengo una [tarjeta de debito]{type: "debit-card"} que acaba de caducar
+    - podrias remplazar mi tarjeta que acaba de caducar
+    - mi tarjeta ya pasa porque esta caducada me la puede remplazar 
+    - como puedo cambiar mi [tarjeta de credito]{type: "credit-card"} que expiro
+    - hola, mi tarjeta de banco acaba de expirar quiero una nueva
+    - que hago mi [tarjeta de credito]{type: "credit-card"} acaba de expirar
+    - cuando mi tarjeta expira hoy que se hace
+    - como puedo realizar compras si mi tarjeta expiro
+    - quiero una tarjeta nueva ya que acaba de caducar
+    - esta tarjeta ya no es valida como me puede ayudar
+    - me puedes ayudar mi tarjeta esta caducada y estoy de viaje
+    - estaba de compras pero al parecer mi tarjeta acaba de expirar
+    - no puedo realizar compras porque mi [tarjeta de debito]{type: "debit-card"} esta expirada 
+    - desde el martes mi [tarjeta platino]{type: "credit-card"} esta expirada 
+    - Ocupo un remplazo porfavor para mi que termina con  [9992]{type: "card"}
+    - Porfavor puedes mandar un remplazo mi tarjeta esta caducada, la que termina con [9992]{type: "card"}
+    - Hola me podrias ayudar a remplazar mi tarjeta que acaba de expirar
+    - Ayer mi tarjeta ya no es valida pueden manderme un remplazo
+    - Como puede acceder a una nueva [tarjeta de debito]{type: "debit-card"}
+    - Necesito una nueva tarjeta que esta ya no es valida y necesito hacer compras
+    - No me acordaba que mi [tarjeta de debito]{type: "debit-card"} habia expirado me puedes ayudar
+    - No se que hacer mi tarjeta ya paso de la fecha de caducidad 
+    - Que hago cuando mi tarjeta acaba de expirar
+    - Si mi tarjeta expiro el mes pasado, como pueden mandarme un remplazo
+    - expiro mi tarjeta 
+    - la tarjeta con terminacion [9992]{type: "card"} caduco
+    - Quiero una tarjte nueva para mi tarjeta con terminacion  [9992]{type: "debit-card"} porque ya no es valida
+    - Mandame un [tarjeta nueva de debito]{type: "debit-card"} porque ya experi esta
+    - Hay alguna forma obtener una tarjeta de debito nueva porque esta ya expiro
 - intent: FradulentCharge  
   examples: |
     - Tengo un cargo no reconocido en mi  [tarjeta de debito]{type: "debit-card"}
